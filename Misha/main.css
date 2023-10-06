@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200;500&family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 2000px;
+}
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: auto;
+
+}
+
+.logo_lable {
+    color: black;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: bold;
+    word-wrap: break-word;
+    text-decoration: none;
+    margin-left: -3%;
+}
+
+.logo {
+    margin-left: 5%;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+header a {
+    color: black;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: bold;
+    word-wrap: break-word;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav {
+    margin: 0 15% 0 10%;
+}
+
+.prof {
+    margin-right: 9%;
+}
+
+header {
+    background-color: white;
+}
+
+nav a {
+    margin-left: 50px;
+}
+
+.prof a {
+    margin-left: 20px;
+}
+
+
+.welcome {
+    display: flex;
+    justify-content: center;
+}
+
+.welcome img {
+    width: 1300px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.brand {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.b_rand {
+    background-color: #fac28e;
+    width: 1300px;
+    height: 186px;
+    display: flex;
+    align-items: center;
+}
+
+header a:hover {
+    background-color: grey;
+    border-radius: 15px;
+    color: white;
+
+}
+
+.New_art {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.NEW {
+    width: 1300px;
+    height: 650px;
+    background-color: #e8e8e8;
+}
+
+.NEW h2 {
+    margin-top: 25px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px;
+    /* 104.167% */
+    letter-spacing: 2.88px;
+}
+
+footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+footer .inf {
+    height: 300px;
+    background-color: #000;
+    width: 1300px;
+}
+
+footer {
+    color: white;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: bold;
+    word-wrap: break-word;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.About_us {
+    width: 500px;
+
+}
+
+.Contact {
+    float: left;
+    width: 800px;
+}
